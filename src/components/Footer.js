@@ -12,7 +12,7 @@ export default function Footer() {
     return (
         <Box sx={{ bgcolor: theme.palette.primary.main, p: 6,mt:`20px` }} component="footer">
         <Typography variant="h6" align="center" gutterBottom>
-          Made by <span key={Math.random(1,10000)} style={{background:theme.palette.footer.name,backgroundClip:`text`, color:`transparent`}}>Kristian Petrov</span> in 4 hours!
+          Made by <span key={Math.random(1,10000)} style={{background:theme.palette.footer.name,backgroundClip:`text`, color:`transparent`}}>Kristian Petrov</span> in 2 hours!
 
         </Typography>
         <Typography
